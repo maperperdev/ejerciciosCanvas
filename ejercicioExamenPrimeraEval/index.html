@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dibujo Canvas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+
+  <canvas id="myCan">
+
+  </canvas>
+  <div id="container">
+
+    <input type="number" min="0" max="500" placeholder="Coordenada X" id="coorX">
+    <input type="number" min="0" max="500" placeholder="Coordenada Y" id="coorY">
+    <input type="button" id="btnCuadrado" value="Cuadrado">
+    <input type="button" id="btnTriangulo" value="Triángulo">
+    <input type="button" id="btnCirculo" value="Círculo">
+    <input type="number" id="numFiguras" min="1" max="4" placeholder="Número de figuras">
+   <br> 
+    <select id="selectorColor">
+      <option value="red">Rojo</option>
+      <option value="green">Verde</option>
+      <option value="blue">Azul</option>
+    </select>
+ 
+    <input type="number" min="0" max="800" placeholder="Anchura área borrada" id="anchuraBorrar">
+    <input type="number" min="0" max="500" placeholder="Altura área borrada" id="alturaBorrar">
+    <input type="button" id="btnAreaBorrada" value="Borra área">
+  </div>
+</body>
+
+</html>

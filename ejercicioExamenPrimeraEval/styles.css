@@ -1,0 +1,7 @@
+canvas {
+  border: 1px black solid;
+}
+
+input[type="number"] {
+  width: 140px;
+}
